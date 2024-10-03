@@ -1,0 +1,138 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: "Poppins", sans-serif;
+      
+}
+.navbar{
+    padding: 10px;
+    background-color: rgb(208, 255, 0);
+    
+}
+.container{
+    padding: 10px;
+  
+}
+.book-container{
+    padding: 15px;
+    width: 25%;
+    background-color: black;
+    border-radius: 10px;
+    color: wheat;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.book-container h2{
+    color: rgb(214, 187, 239);
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+.book-container h5{
+    color: rgb(255, 0, 157);
+    margin: 5px;
+}
+.book-container button{
+    width: 20%;
+    height: 5vh;
+    margin: 5px;
+    cursor: pointer;
+    background-color: yellow;
+    font-weight: bold;
+    font-size: medium;
+    font-style: italic;
+    border-radius: 10px;
+    border: none; 
+    margin-top:10px;   
+}
+.add-button{
+    position: fixed;
+    border: none;
+    background-color:rgb(208, 255, 0);
+    cursor: pointer;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 100%;
+    padding-right: 30px;
+    font-size:40px;
+    right: 30px;
+    bottom: 20px;
+}
+.popup-overlay{
+background-color: black;
+opacity: 0.8;
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0%;
+left: 0%;
+display: none;
+}
+.popup-box{
+background-color: rgb(240, 9, 48);
+width: 40%;
+padding: 40px;
+border-radius: 10px;
+position: absolute;
+top: 20%;
+left: 20%;
+left:  25%;
+display: none;
+
+}
+.popup-box input{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom:solid black 3px;
+    
+}
+#book-discription-input{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom:solid black 3px;
+}
+#add{
+    background-color:black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    height: 5vh;
+    font-weight: bolder;
+    border-radius: 5px;
+    font-style: italic;
+   
+    }
+#cancel-popup{
+    background-color:black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    height: 5vh;
+    font-weight: bolder;
+    border-radius: 5px;
+    font-style: italic;
+
+}
+.popup-box input::placeholder{
+    color: black;
+}
+.popup-box textarea::placeholder{
+    color: black;
+}
+
+
